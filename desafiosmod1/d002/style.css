@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(75, 7, 144);
+}
+h1,
+h2,
+p {
+  color: yellow;
+  font-weight: bold;
+  text-align: center;
+}
+li {
+  color: rgb(255, 234, 0);
+  justify-content: space-evenly;
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}

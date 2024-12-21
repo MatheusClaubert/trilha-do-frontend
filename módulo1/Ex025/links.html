@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+</head>
+<style>
+
+/* #  = id
+   .  = class
+   :  = pseudo-classe
+   :: = pseudo-elemento
+   >  = filho/ children
+
+*/
+
+
+    a{
+        color: rgb(255, 0, 0);
+    }
+    a:visited{
+        color: darkred;
+    }
+    a:hover{
+       color: black;
+    }
+    a:active{
+        color: rgb(43, 0, 255);
+    }
+    a::before{
+        content: '-> ';
+    }
+    a::after{
+        content: ' <-';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgray;
+    }
+</style>
+<body>
+    <h1>Links Personalizados</h1>
+    <ul>
+        <li><a href="https://www.google.com.br" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com.br" target="_blank">Youtube</a></li>
+        <li><a href="https://www.facebook.com.br" target="_blank">Facebook</a></li>
+      
+    </ul>
+    
+</body>
+</html>

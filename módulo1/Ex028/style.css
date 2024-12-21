@@ -1,0 +1,23 @@
+.element {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+
+  padding:10px;
+  border: 10px solid black;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.parent {
+    border: solid 15px #3da6c8;
+    height: 150px;
+    width: 250px;
+}
+.child {
+    background-color: rgb(72 200 61 / .25);
+    height: 60px;
+    box-sizing: content-box;
+    width: 100%;
+    border: solid tomato 10px;
+    box-sizing: border-box;
+}
