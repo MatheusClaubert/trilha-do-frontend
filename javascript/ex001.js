@@ -9,12 +9,14 @@ function abreviarNum(numero){
     index++;
 }
 
-const inteiro = Math.floor(numero);;
-const decimal = Math.floor((numero - inteiro) * 10);
+const inteiro = Math.floor(numero);
+const decimal = Math.floor((numero - inteiro) * 100);
 
-return `${inteiro}${unid[index]}${decimal > 0 ? decimal : ''}`;
+return `${inteiro}${unid[index]}${decimal > 0 ? decimal : ''}`
 }
 console.log(abreviarNum(150));
 console.log(abreviarNum(15000000));
 console.log(abreviarNum(150000));
 console.log(abreviarNum(1560));
+console.log(abreviarNum(8999));
+console.log(abreviarNum(1599000));
